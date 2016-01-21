@@ -1,0 +1,15 @@
+{
+  "name": "nunjucks-include-range-error",
+  "private": true,
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "npm run problem",
+    "noproblem": "node index.js 10 problem-a.html",
+    "problem": "node index.js 10000 problem-a.html",
+    "workaround": "node index.js 10000 workaround-a.html"
+  },
+  "dependencies": {
+    "nunjucks": "2.3.0"
+  }
+}
